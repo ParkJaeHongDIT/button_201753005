@@ -19,14 +19,14 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: Any) {
       //  print("Hello Button Event!")
-        myLabel.text = "Hello Button Event!"
+        self.view.backgroundColor = UIColor.red
     }
     
     @IBAction func Init(_ sender: Any) {
-        myLabel.text = ""
+        self.view.backgroundColor = UIColor.yellow
     }
     @IBAction func changeViewColor(_ sender: Any) {
-        self.view.backgroundColor = UIColor.red
+        self.view.backgroundColor = UIColor.blue
     }
     
     

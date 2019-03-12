@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.yellow
     }
     @IBAction func changeViewColor(_ sender: Any) {
-        self.view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = UIColor.green
     }
     
     
